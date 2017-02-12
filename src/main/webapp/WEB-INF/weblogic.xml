@@ -1,0 +1,15 @@
+
+    <weblogic-web-app>
+
+        <container-descriptor>
+            <index-directory-enabled>true</index-directory-enabled>
+        </container-descriptor>
+
+        <virtual-directory-mapping>
+            <local-path>C:\Oracle\Middleware\Oracle_Home\user_projects\domains\new_domain\downloads</local-path>
+            <url-pattern>*</url-pattern>
+        </virtual-directory-mapping>
+
+        <context-root>/out</context-root>
+
+    </weblogic-web-app>
